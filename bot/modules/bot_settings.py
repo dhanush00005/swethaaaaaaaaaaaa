@@ -23,7 +23,7 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'BOT_PM': False,
                   'FORCE_BOT_PM': False,
                   'UPSTREAM_BRANCH': 'master',
-                  'UPSTREAM_REPO': 'https://github.com/SN-Abdullah-Al-Noman/Atrocious_Mirror',
+                  'UPSTREAM_REPO': 'https://t.me/+VSW7ZJAxpVo3Nzkx',
                   'STATUS_UPDATE_INTERVAL': 10,
                   'DOWNLOAD_DIR': '/usr/src/app/downloads/',
                   'TIME_GAP': -1,
@@ -33,9 +33,9 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'START_BTN1_URL': 'https://t.me/ItsBitDefender',
                   'START_BTN2_NAME': 'Mirror Group',
                   'START_BTN2_URL': 'https://t.me/+yw0A-x4cYBphZmJl',
-                  'AUTHOR_NAME': 'Atrocious',
-                  'AUTHOR_URL': 'https://t.me/AtrociousBotSupport',
-                  'TITLE_NAME': 'Atrocious',
+                  'AUTHOR_NAME': 'INDIA',
+                  'AUTHOR_URL': 'https://t.me/+VSW7ZJAxpVo3Nzkx',
+                  'TITLE_NAME': 'INDIA',
                   'NAME_FONT': 'code',
                   'CAPTION_FONT': 'code',
                   'FINISHED_PROGRESS_STR': '■',
@@ -408,7 +408,7 @@ def load_config():
 
     UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
     if len(UPSTREAM_REPO) == 0: 
-        UPSTREAM_REPO = 'https://github.com/SN-Abdullah-Al-Noman/Atrocious_Mirror'
+        UPSTREAM_REPO = 'https://t.me/+VSW7ZJAxpVo3Nzkx'
 
     UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
     if len(UPSTREAM_BRANCH) == 0:   
