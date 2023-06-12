@@ -22,20 +22,20 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'AUTO_DELETE_UPLOAD_MESSAGE_DURATION': -1,
                   'BOT_PM': False,
                   'FORCE_BOT_PM': False,
-                  'UPSTREAM_BRANCH': 'Master',
-                  'UPSTREAM_REPO': 'https://t.me/India_Mirror_and_Leech',
+                  'UPSTREAM_BRANCH': 'master',
+                  'UPSTREAM_REPO': 'https://github.com/SN-Abdullah-Al-Noman/Atrocious_Mirror',
                   'STATUS_UPDATE_INTERVAL': 10,
                   'DOWNLOAD_DIR': '/usr/src/app/downloads/',
                   'TIME_GAP': -1,
                   'TG_SPLIT_SIZE': tgBotMaxFileSize,
                   'TGH_THUMB': 'https://te.legra.ph/file/3325f4053e8d68eab07b5.jpg',
                   'START_BTN1_NAME': 'Master',
-                  'START_BTN1_URL': 'https://t.me/India_Mirror_and_Leech',
+                  'START_BTN1_URL': 'https://t.me/ItsBitDefender',
                   'START_BTN2_NAME': 'Mirror Group',
-                  'START_BTN2_URL': 'https://t.me/+VSW7ZJAxpVo3Nzkx',
-                  'AUTHOR_NAME': 'INDIA',
-                  'AUTHOR_URL': 'https://t.me/+VSW7ZJAxpVo3Nzkx',
-                  'TITLE_NAME': 'INDIA',
+                  'START_BTN2_URL': 'https://t.me/+yw0A-x4cYBphZmJl',
+                  'AUTHOR_NAME': 'Atrocious',
+                  'AUTHOR_URL': 'https://t.me/AtrociousBotSupport',
+                  'TITLE_NAME': 'Atrocious',
                   'NAME_FONT': 'code',
                   'CAPTION_FONT': 'code',
                   'FINISHED_PROGRESS_STR': '■',
@@ -408,7 +408,7 @@ def load_config():
 
     UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
     if len(UPSTREAM_REPO) == 0: 
-        UPSTREAM_REPO = 'https://t.me/+VSW7ZJAxpVo3Nzkx'
+        UPSTREAM_REPO = 'https://github.com/SN-Abdullah-Al-Noman/Atrocious_Mirror'
 
     UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
     if len(UPSTREAM_BRANCH) == 0:   
